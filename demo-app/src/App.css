@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(68, 68, 68, 0.2);
+  margin: 10px;
+  padding: 1rem;
+}
+
+
+.modalImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  width: 20%;
+  height: 40%;
+  z-index: 9999;
+  background-color: rgba(68, 68, 68, 0.2);
+}
+
+.image {
+  border-radius: 100%;
+  width: 40%;
+  height: 60%;
+}
+
+.buttonClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  cursor: pointer;
+}
