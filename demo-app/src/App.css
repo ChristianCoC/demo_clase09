@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+.nav-houses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(68, 68, 68, 0.2);
+  margin: 10px;
+  padding: 1rem;
+  gap: 1rem;
+}
+
 .card {
   display: flex;
   flex-direction: column;
